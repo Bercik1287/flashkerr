@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flash-ker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f400ddd58cc4fbe73c56d5a80588f96e2fa0894a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flash-ker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flash-ker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj": {}
+    "D:\\flashkerr\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj": {
+    "D:\\flashkerr\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj",
+        "projectUniqueName": "D:\\flashkerr\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj",
         "projectName": "Flash-ker.iOS",
-        "projectPath": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj",
-        "packagesPath": "C:\\Users\\drywn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker.iOS\\obj\\",
+        "projectPath": "D:\\flashkerr\\Flash-ker\\Flash-ker.iOS\\Flash-ker.iOS.csproj",
+        "packagesPath": "C:\\Users\\ShiroKitsu\\.nuget\\packages\\",
+        "outputPath": "D:\\flashkerr\\Flash-ker\\Flash-ker.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\drywn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ShiroKitsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\Flash-ker.csproj": {
-                "projectPath": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\Flash-ker.csproj"
+              "D:\\flashkerr\\Flash-ker\\Flash-ker\\Flash-ker.csproj": {
+                "projectPath": "D:\\flashkerr\\Flash-ker\\Flash-ker\\Flash-ker.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\Flash-ker.csproj": {
+    "D:\\flashkerr\\Flash-ker\\Flash-ker\\Flash-ker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\Flash-ker.csproj",
+        "projectUniqueName": "D:\\flashkerr\\Flash-ker\\Flash-ker\\Flash-ker.csproj",
         "projectName": "Flash-ker",
-        "projectPath": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\Flash-ker.csproj",
-        "packagesPath": "C:\\Users\\drywn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drywn\\source\\repos\\Flash-ker\\Flash-ker\\obj\\",
+        "projectPath": "D:\\flashkerr\\Flash-ker\\Flash-ker\\Flash-ker.csproj",
+        "packagesPath": "C:\\Users\\ShiroKitsu\\.nuget\\packages\\",
+        "outputPath": "D:\\flashkerr\\Flash-ker\\Flash-ker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\drywn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ShiroKitsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,6 +119,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
