@@ -6,15 +6,24 @@
              mc:Ignorable="d"
              x:Class="Flash_ker.Views.LoginPage"
              Shell.NavBarIsVisible="False">
-      <ContentPage.Content>
-      <StackLayout Spacing="3" Padding="15">
-          <Label Text="Wisz cos" FontSize="Medium" />
-          <Entry Text="{Binding Text, Mode=TwoWay}" FontSize="Medium" />
-          <Label Text="..." FontSize="Medium" />
-          <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
-          <StackLayout Orientation="Horizontal">
-                <Button Text="Zaloguj się" Command="{Binding LoginCommand}" HorizontalOptions="FillAndExpand"></Button>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="15">
+            <Label Text="Login:" FontSize="Medium" TextColor="Black" />
+
+            <Frame BorderColor="Gray" CornerRadius="5" Padding="10">
+                <Entry Text="{Binding Text, Mode=TwoWay}" FontSize="Medium" TextColor="Black" Placeholder="Dobryziomeczek" />
+            </Frame>
+
+            <Label Text="Hasło:" FontSize="Medium" TextColor="Black" />
+
+            <Frame BorderColor="Gray" CornerRadius="5" Padding="10">
+                <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" TextColor="Black" Placeholder="HasłoMasło" />
+            </Frame>
+
+            <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                <Button Text="Zaloguj się" Command="{Binding LoginCommand}" HorizontalOptions="FillAndExpand" BackgroundColor="Wheat" TextColor="White" />
             </StackLayout>
-      </StackLayout>
-  </ContentPage.Content>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

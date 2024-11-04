@@ -2,12 +2,30 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace Flash_ker.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        private string _text;
+        private string _description;
+
+        public string Text
+        {
+            get => _text;
+            set => SetProperty(ref _text, value);
+        }
+
+        public string Description
+        {
+            get => _description;
+            set => SetProperty(ref _description, value);
+        }
+
         public Command LoginCommand { get; }
 
         public LoginViewModel()
@@ -17,7 +35,7 @@ namespace Flash_ker.ViewModels
 
         private async void OnLoginClicked(object obj)
         {
-            // Prefixing with `//` switches to a different navigation stack instead of pushing to the active one
+            // Navigate to AboutPage using a different navigation stack
             await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
         }
     }

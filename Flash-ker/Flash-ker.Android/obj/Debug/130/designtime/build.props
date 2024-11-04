@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638657258267954106
+_nugetassetstimestamp=638662635167617547
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\drywn\source\repos\flash-ker\flash-ker.android\flash-ker.android.csproj
+projectfullpath=c:\users\mqtwo\documents\github\flashkerr\flash-ker\flash-ker.android\flash-ker.android.csproj
